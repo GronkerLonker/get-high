@@ -7,6 +7,16 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 /* CUSTOM */
 /* -- competition --*/
+#about img {
+    padding-left: 25%;
+}
+
+@media(max-width:991px) {
+    #about img {
+        padding-left: 5%;
+    }
+}
+
 #competition .col-md-12 p {
     margin: 0.2em 0 1em 0;
 }
@@ -24,6 +34,18 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     color: #999999;
     font-size: .9em;
     line-height: 1.8em;
+}
+
+#sponsors {
+    background-color: orange;
+}
+
+#sponsorsSub img {
+    max-width: 283px;
+}
+
+#sponsors img {
+    max-height: 283px;
 }
 
 /* END CUSTOM */
