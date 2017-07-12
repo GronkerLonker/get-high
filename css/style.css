@@ -5,51 +5,6 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 --*/
 
-/* CUSTOM */
-/* -- competition --*/
-#about img {
-    padding-left: 25%;
-}
-
-@media(max-width:991px) {
-    #about img {
-        padding-left: 5%;
-    }
-}
-
-#competition .col-md-12 p {
-    margin: 0.2em 0 1em 0;
-}
-
-#competition .col-md-12 h3 {
-    color: orange;
-}
-
-#competition .col-md-12 h4 {
-    font-size: 1.2em;
-    color: orange;
-}
-
-.agileits-about-grid li {
-    color: #999999;
-    font-size: .9em;
-    line-height: 1.8em;
-}
-
-#sponsors {
-    background-color: orange;
-}
-
-#sponsorsSub img {
-    max-width: 283px;
-}
-
-#sponsors img {
-    max-height: 283px;
-}
-
-/* END CUSTOM */
-
 .facebook-widget {
     height: 500px;
 }
@@ -1222,3 +1177,110 @@ button.btn1:hover {
 .sponsor-logo {
     padding-bottom: 5px;
 }
+
+/* CUSTOM */
+
+.agileits-w3layouts-footer {
+    background: #f5f5f5;
+}
+
+
+#register-banner {
+    text-align: right;
+    margin-top: 25em;
+    margin-bottom: 0em;
+}
+
+/* -- competition --*/
+#about img {
+    padding-left: 25%;
+}
+
+#competition ul {
+    padding-top: 0.5em;
+    padding-bottom: 4em;
+    font-size: 22px;
+    margin-left: -15px;
+}
+
+#competition li {
+    line-height: 1.3em;
+    color: orange;
+}
+
+#competition .col-md-12 p {
+    margin: 0.2em 0 1em 0;
+}
+
+#competition .col-md-12 h3 {
+    color: orange;
+    font-weight: bold;
+    font-size: 26px;
+    margin-top: 8px;
+}
+
+#competition .col-md-12 h4 {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: orange;
+}
+
+.agileits-about-grid li {
+    color: #999999;
+    font-size: .9em;
+    line-height: 1.8em;
+}
+
+#sponsors {
+    background-color: orange;
+}
+
+#sponsorsSub {
+    margin-top: 0.5em;
+}
+
+#sponsorsSub .col-md-3 {
+    width: 16%;
+}
+
+#sponsorsSub img {
+    max-width: 283px;
+}
+
+#sponsors img {
+    max-height: 283px;
+}
+
+@media(max-width:991px) {
+    #about img {
+        padding-left: 5%;
+    }
+
+    #sponsorsSub .col-md-3 {
+        width: 100%;
+    }
+}
+
+.w3-address-grid {
+    background-color: lightgrey;
+}
+
+.agileits-w3layouts-footer h5 {
+    color: black;
+}
+
+.agileits-w3layouts-footer h6 {
+    color: black;
+}
+
+.agileits-w3layouts-footer p {
+    color: orange;
+}
+
+.agileits-w3layouts-footer a {
+    color: orange;
+}
+
+.agileits-w3layouts-footer p a {
+    color: orange;
+}/* END CUSTOM */
