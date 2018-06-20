@@ -96,14 +96,14 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 /*-- //header --*/
 /*-- banner --*/
 .banner{
-    background: url(../images/competition-teaser.jpg) no-repeat 0px -85px;
+    background: url(../images/competition-teaser_2018.jpg) no-repeat 0px -60px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     -ms-background-size: cover;
     position: relative;
-    padding: 2em 0 3em;
+    padding: 2em 0 6em;
 }
 .banner_text{
     text-align: center;
@@ -142,6 +142,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     margin: 0;
     padding: 1em;
     z-index: 1;
+    padding-top: 9em;
 }
 /*--slider--*/
 #slider2,
@@ -913,7 +914,7 @@ button.btn1:hover {
 /*-- responsive --*/
 @media(max-width:1440px){
 	.banner {
-		background: url(../images/competition-teaser.jpg) no-repeat 0px 0px;
+		background: url(../images/competition-teaser_2018.jpg) no-repeat 0px -60px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1048,7 +1049,7 @@ button.btn1:hover {
 		font-size: 3em;
 	}
 	.banner {
-		background: url(../images/competition-teaser.jpg) no-repeat -167px 0px;
+		background: url(../images/competition-teaser_2018.jpg) no-repeat -167px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1205,7 +1206,7 @@ button.btn1:hover {
 
 #competition li {
     line-height: 1.3em;
-    color: orange;
+    color: #cc2d5a;
 }
 
 #competition .col-md-12 p {
@@ -1213,16 +1214,16 @@ button.btn1:hover {
 }
 
 #competition .col-md-12 h3 {
-    color: orange;
     font-weight: bold;
     font-size: 26px;
     margin-top: 8px;
+    color: #cc2d5a;
 }
 
 #competition .col-md-12 h4 {
     font-size: 1.2em;
     line-height: 1.2em;
-    color: orange;
+    color: #cc2d5a;
 }
 
 .agileits-about-grid li {
@@ -1232,7 +1233,7 @@ button.btn1:hover {
 }
 
 #sponsors {
-    background-color: orange;
+    background-color: #cc2d5a;
 }
 
 #sponsorsSub {
@@ -1274,13 +1275,13 @@ button.btn1:hover {
 }
 
 .agileits-w3layouts-footer p {
-    color: orange;
+    color: #cc2d5a;
 }
 
 .agileits-w3layouts-footer a {
-    color: orange;
+    color: #cc2d5a;
 }
 
 .agileits-w3layouts-footer p a {
-    color: orange;
+    color: #cc2d5a;
 }/* END CUSTOM */
