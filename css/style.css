@@ -9,12 +9,21 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     height: 500px;
 }
 
+.alternate-row{
+ background: #f5f5f5;
+}
+
+body a:hover {
+  color: #cc2d5a;
+}
+
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
   -o-transition: 0.5s all;
   -moz-transition: 0.5s all;
   -ms-transition: 0.5s all;
+  color: #67f9d3;
 }
 html, body{
     font-size: 100%;
@@ -74,9 +83,9 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 	-moz-border-radius: 30px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #fff;
-	border: solid 2px #ff5301;
-	background:#ff5301;
+    color: #000;
+	border: solid 2px #67f9d3;
+	background:#67f9d3;
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #ffffff;
@@ -87,11 +96,11 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     margin-right: 5px;
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-    color: #fff;
+    color: #000;
     background: none;
-    border: solid 2px #ff5301;
+    border: solid 2px #67f9d3;
     border-radius: 30px;
-    background: #ff5301;
+    background: #67f9d3;
 }
 /*-- //header --*/
 /*-- banner --*/
@@ -133,9 +142,9 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 	background:none;
 }
 .w3-button a:hover{
-    color: #FFFFFF;
-    background: #ff5301;
-	border: solid 2px #ff5301;
+    color: #000000;
+    background: #67f9d3;
+	border: solid 2px #67f9d3;
 }
 .w3-button {
     position: relative;
@@ -315,8 +324,8 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     -ms-border-radius: 50%;
 }
 .callbacks_here a:after{
-    background: #ff5301;
-    border: 2px solid #ff5301;
+    background: #67f9d3;
+    border: 2px solid #67f9d3;
 }
 /*-- //slider --*/
 .agileits-w3layouts-info img{
@@ -346,7 +355,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     position: relative;
 }
 .wthree-heading h2,.wthree-heading h3{
-	color:#212121;
+	color:#cc2d5a;
 	font-size:2em;
 	margin:0;
 	text-transform:uppercase;
@@ -354,7 +363,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 	letter-spacing:1px;
 }
 .wthree-heading h4{
-    color: rgba(117, 117, 117, 0.19);
+    color: #67f9d33d;
     font-size: 7em;
     font-weight: 600;
     margin: 0;
@@ -382,7 +391,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 /*-- //about --*/
 /*-- services --*/
 .services{
-    background: #f5f5f5;
+  background: #f5f5f5;
 }
 .services-grids {
     margin: 5em 0 0 0;
@@ -391,7 +400,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     padding: 1em;
 }
 .w3-agileits-services-grid i.fa.fa-cogs,.w3-agileits-services-grid i.fa.fa-comments,.w3-agileits-services-grid i.fa.fa-heart,.w3-agileits-services-grid i.fa.fa-plane,.w3-agileits-services-grid i.fa.fa-paper-plane,.w3-agileits-services-grid i.fa.fa-road{
-    color: #ff5301;
+    color: #67f9d3;
     font-size: 2em;
 }
 .w3-agileits-services-grid h4{
@@ -426,8 +435,8 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
     color: #ffffff;
     cursor: default;
-    background: #ff5301;
-    border: solid 2px #ff5301;
+    background: #67f9d3;
+    border: solid 2px #67f9d3;
 }
 .nav-tabs > li > a {
     margin-right: 3px;
@@ -455,8 +464,8 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 }
 .nav-tabs > li > a:hover {
 	color: #FFFFFF;
-    background: #ff5301;
-    border: solid 2px #ff5301;
+    background: #67f9d3;
+    border: solid 2px #67f9d3;
 }
 .w3_tab_img_left {
     margin: 2em 0 0;
@@ -560,7 +569,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 	background: #f26522;
 }
 .team-caption {
-    background: #ff5301;
+    background: #67f9d3;
     padding: 1em;
     position: absolute;
     left: 0;
@@ -654,9 +663,9 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     -moz-border-radius: 30px;
 }
 .contact input[type="submit"]:hover {
-    background: #ff5301;
+    background: #67f9d3;
     color: #FFFFFF;
-    border: solid 2px #ff5301;
+    border: solid 2px #67f9d3;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -705,8 +714,8 @@ button.btn1 {
     padding: 1em 2em;
     text-align: center;
     text-decoration: none;
-    background: #ff5301;
-	border: solid 2px #ff5301;
+    background: #67f9d3;
+	border: solid 2px #67f9d3;
     transition: 0.5s all;
     -webkit-transition: 0.5s all;
     -moz-transition: 0.5s all;
@@ -812,7 +821,7 @@ button.btn1:hover {
 	margin:0;
 }
 .w3ls-post-info h6 a:hover{
-	color:#ff5301;
+	color:#67f9d3;
 }
 .w3ls-post-info h6 a:focus{
 	outline:none;
@@ -854,7 +863,7 @@ button.btn1:hover {
 	font-size:.9em;
 }
 .w3-address-right p a{
-	color:#ff5301;
+	color:#67f9d3;
 	text-decoration:none;
 }
 .w3-address-right p a:hover{
@@ -882,7 +891,7 @@ button.btn1:hover {
 	text-decoration:none;
 }
 .copyright p a:hover{
-	color:#ff5301;
+	color:#67f9d3;
 }
 /*-- //footer --*/
 /*-- to-top --*/
@@ -1197,38 +1206,48 @@ button.btn1:hover {
     padding-left: 25%;
 }
 
-#competition ul {
-    padding-top: 0.5em;
-    padding-bottom: 4em;
+.about.competition ul {
+    padding-bottom: 0.5em;
     font-size: 22px;
     margin-left: -15px;
+    list-style-type: none;
 }
 
-#competition li {
+.about.competition li {
     line-height: 1.3em;
     color: #cc2d5a;
 }
 
-#competition .col-md-12 p {
+.about.competition .col-md-12 p {
     margin: 0.2em 0 1em 0;
+    color: #cc2d5a;
+    line-height: 1.3em;
+    font-size: 2em;
 }
 
-#competition .col-md-12 h3 {
+.about.competition .col-md-12 p.image-caption {
+    margin: 0.2em 0 1em 0;
+    color: grey;
+    line-height: 0.8em;
+    font-size: 14px;
+}
+
+.about.competition .col-md-12 h3 {
     font-weight: bold;
     font-size: 26px;
     margin-top: 8px;
     color: #cc2d5a;
 }
 
-#competition .col-md-12 h4 {
-    font-size: 1.2em;
-    line-height: 1.2em;
+.about.competition .col-md-12 h4 {
+    font-size: 1.8em;
+    line-height: 1.3em;
     color: #cc2d5a;
 }
 
 .agileits-about-grid li {
     color: #999999;
-    font-size: .9em;
+    font-size: 1.1em;
     line-height: 1.8em;
 }
 
