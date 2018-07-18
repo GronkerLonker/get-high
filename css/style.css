@@ -576,7 +576,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 	background: #f26522;
 }
 .team-caption {
-    background: #67f9d3;
+    background: #cc2d5a;
     padding: 1em;
     position: absolute;
     left: 0;
@@ -927,6 +927,49 @@ button.btn1:hover {
 	filter: alpha(opacity=0);
 }
 /*-- //to-top --*/
+
+
+#sponsors {
+    background-color: #cc2d5a;
+}
+
+#sponsorsSub {
+    margin-top: 0.5em;
+}
+
+#sponsorsSub .col-md-3 {
+    width: 16%;
+}
+
+#sponsorsSub img {
+    max-width: 283px;
+}
+
+#sponsors img {
+    max-height: 283px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.about.competition ul {
+    padding-bottom: 0.5em;
+    font-size: 22px;
+    margin-left: -15px;
+    list-style-type: none;
+}
+
+.about.competition ul.disc-list {
+  text-align: left;
+  list-style: disc;
+  margin-left: 15%;
+}
+
+.agileits-team-grid:nth-child(5){
+  margin:2em 0 0 0;
+}
+
 /*-- responsive --*/
 @media(max-width:1440px){
 	.banner {
@@ -953,6 +996,9 @@ button.btn1:hover {
 	}
 }
 @media(max-width:991px){
+  .about.competition ul.disc-list {
+    margin-left: 0px;
+  }
 	.navbar-nav > li > a {
 		padding: .5em 1em;
 	}
@@ -998,8 +1044,17 @@ button.btn1:hover {
 	.callbacks_nav {
 		bottom: 193px;
 	}
+  #sponsorsSub .col-md-3 {
+      width: 100%;
+  }
 }
 @media(max-width:736px){
+  .about.competition ul {
+      list-style-type: disc;
+  }
+  .text-center {
+    text-align: left;
+  }
 	.navbar-collapse {
 		text-align: center;
 	}
@@ -1044,6 +1099,9 @@ button.btn1:hover {
 	.wthree-heading h4 {
 		left: 44%;
 	}
+  #sponsorsMain img {
+      max-width: 500px;
+  }
 }
 @media(max-width:568px){
 	.callbacks_tabs {
@@ -1059,8 +1117,14 @@ button.btn1:hover {
 		width: 100%;
 		margin:0 0 1.5em 0;
 	}
+  #sponsorsMain img {
+      max-width: 430px;
+  }
 }
 @media(max-width:480px){
+  #sponsorsMain img {
+      max-width: 365px;
+  }
 	.banner_text h3 {
 		font-size: 3em;
 	}
@@ -1105,6 +1169,9 @@ button.btn1:hover {
 	}
 }
 @media(max-width:414px){
+  #sponsorsMain img {
+      max-width: 275px;
+  }
 	.banner_text p {
 		margin: 1em 0;
 	}
@@ -1134,6 +1201,12 @@ button.btn1:hover {
 	}
 }
 @media(max-width:320px){
+  #sponsorsMain img {
+      max-width: 250px;
+  }
+  #sponsorsSub img {
+      max-width: 250px;
+  }
 	.banner_text h3 {
 		font-size: 2.5em;
 	}
@@ -1213,13 +1286,6 @@ button.btn1:hover {
     padding-left: 25%;
 }
 
-.about.competition ul {
-    padding-bottom: 0.5em;
-    font-size: 22px;
-    margin-left: -15px;
-    list-style-type: none;
-}
-
 .about.competition li {
     line-height: 1.3em;
     color: #cc2d5a;
@@ -1258,33 +1324,9 @@ button.btn1:hover {
     line-height: 1.8em;
 }
 
-#sponsors {
-    background-color: #cc2d5a;
-}
-
-#sponsorsSub {
-    margin-top: 0.5em;
-}
-
-#sponsorsSub .col-md-3 {
-    width: 16%;
-}
-
-#sponsorsSub img {
-    max-width: 283px;
-}
-
-#sponsors img {
-    max-height: 283px;
-}
-
 @media(max-width:991px) {
     #about img {
         padding-left: 5%;
-    }
-
-    #sponsorsSub .col-md-3 {
-        width: 100%;
     }
 }
 
