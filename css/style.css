@@ -10,11 +10,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 }
 
 .alternate-row{
- background: #f5f5f5;
+ background: #0070b4;
 }
 
 body a:hover {
-  color: #cc2d5a;
+  color: #0070b4;
 }
 
 body a {
@@ -27,7 +27,7 @@ body a {
 }
 html, body{
     font-size: 100%;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 body{
 	background:#FFFFFF;
@@ -105,7 +105,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 /*-- //header --*/
 /*-- banner --*/
 .banner{
-    background: url(../images/competition-teaser_2018.jpg) no-repeat 0px -60px;
+    background: url(../images/competition-teaser.jpg) no-repeat 0px -60px;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -355,13 +355,18 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
     position: relative;
 }
 .wthree-heading h2,.wthree-heading h3{
-	color:#cc2d5a;
+	color:#0070b4;
 	font-size:2em;
 	margin:0;
 	text-transform:uppercase;
 	font-weight:700;
 	letter-spacing:1px;
 }
+
+.alternate-row .wthree-heading h2,.alternate-row .wthree-heading h3{
+    color: white;
+}
+
 .wthree-heading h4{
     color: #67f9d33d;
     font-size: 7em;
@@ -576,7 +581,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 	background: #f26522;
 }
 .team-caption {
-    background: #cc2d5a;
+    background: #0070b4;
     padding: 1em;
     position: absolute;
     left: 0;
@@ -930,7 +935,7 @@ button.btn1:hover {
 
 
 #sponsors {
-    background-color: #cc2d5a;
+    background-color: #0070b4;
 }
 
 #sponsorsSub {
@@ -973,7 +978,7 @@ button.btn1:hover {
 /*-- responsive --*/
 @media(max-width:1440px){
 	.banner {
-		background: url(../images/competition-teaser_2018.jpg) no-repeat 0px -60px;
+		background: url(../images/competition-teaser.jpg) no-repeat 0px -60px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1129,7 +1134,7 @@ button.btn1:hover {
 		font-size: 3em;
 	}
 	.banner {
-		background: url(../images/competition-teaser_2018.jpg) no-repeat -167px 0px;
+		background: url(../images/competition-teaser.jpg) no-repeat -167px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1288,14 +1293,22 @@ button.btn1:hover {
 
 .about.competition li {
     line-height: 1.3em;
-    color: #cc2d5a;
+    color: #0070b4;
+}
+
+.about.competition.alternate-row li {
+    color: white;
 }
 
 .about.competition .col-md-12 p {
     margin: 0.2em 0 1em 0;
-    color: #cc2d5a;
+    color: #0070b4;
     line-height: 1.3em;
-    font-size: 2em;
+    font-size: 1.6em;
+}
+
+.about.competition.alternate-row .col-md-12 p {
+    color: white;
 }
 
 .about.competition .col-md-12 p.image-caption {
@@ -1307,20 +1320,28 @@ button.btn1:hover {
 
 .about.competition .col-md-12 h3 {
     font-weight: bold;
-    font-size: 26px;
+    font-size: 20px;
     margin-top: 8px;
-    color: #cc2d5a;
+    color: #0070b4;
+}
+
+.about.competition.alternate-row .col-md-12 h3 {
+    color: white;
 }
 
 .about.competition .col-md-12 h4 {
-    font-size: 1.8em;
+    font-size: 1.4em;
     line-height: 1.3em;
-    color: #cc2d5a;
+    color: #0070b4;
+}
+
+.about.competition.alternate-row .col-md-12 h4 {
+    color: white;
 }
 
 .agileits-about-grid li {
     color: #999999;
-    font-size: 1.1em;
+    font-size: 0.8em;
     line-height: 1.8em;
 }
 
@@ -1343,13 +1364,13 @@ button.btn1:hover {
 }
 
 .agileits-w3layouts-footer p {
-    color: #cc2d5a;
+    color: #0070b4;
 }
 
 .agileits-w3layouts-footer a {
-    color: #cc2d5a;
+    color: #0070b4;
 }
 
 .agileits-w3layouts-footer p a {
-    color: #cc2d5a;
+    color: #0070b4;
 }/* END CUSTOM */
