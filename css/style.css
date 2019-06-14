@@ -17,6 +17,10 @@ body a:hover {
   color: #0070b4;
 }
 
+body .alternate-row a:hover {
+  color: white;
+}
+
 body a {
   transition: 0.5s all;
   -webkit-transition: 0.5s all;
@@ -368,7 +372,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 }
 
 .wthree-heading h4{
-    color: #67f9d33d;
+    color: #72368e3d;
     font-size: 7em;
     font-weight: 600;
     margin: 0;
@@ -395,12 +399,12 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 }
 /*-- //about --*/
 /*-- services --*/
-#sponsors .wthree-heading h4{
+/* #sponsors .wthree-heading h4{
     color: rgba(117, 117, 117, 0.19);
 }
 #sponsors .wthree-heading h2,#sponsors .wthree-heading h3{
 	 color:#212121;
-}
+} */
 
 .services{
   background: #f5f5f5;
@@ -1304,7 +1308,13 @@ button.btn1:hover {
     margin: 0.2em 0 1em 0;
     color: #0070b4;
     line-height: 1.3em;
-    font-size: 1.6em;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.about.competition .col-md-12 p.main {
+    font-size: 1.4em;
+    text-align: center;
 }
 
 .about.competition.alternate-row .col-md-12 p {
