@@ -110,7 +110,7 @@ input[type="submit"],.w3l_banner_info_left_grid_left h3 a,.w3agile_footer_copy p
 /*-- //header --*/
 /*-- banner --*/
 .banner{
-    /* background: url(../images/competition-teaser.jpg) no-repeat; */
+    /* background: url(../images/competition-teaser_2019.jpg) no-repeat; */
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -984,7 +984,7 @@ button.btn1:hover {
 /*-- responsive --*/
 @media(max-width:1440px){
 	.banner {
-		background: url(../images/competition-teaser.jpg) no-repeat 0px -60px;
+		background: url(../images/competition-teaser_2019.jpg) no-repeat 0px -60px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
@@ -1140,7 +1140,7 @@ button.btn1:hover {
 		font-size: 3em;
 	}
 	.banner {
-		background: url(../images/competition-teaser.jpg) no-repeat -167px 0px;
+		background: url(../images/competition-teaser_2019.jpg) no-repeat -167px 0px;
 		background-size: cover;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
